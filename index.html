@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js</title>
+</head>
+
+<body>
+    <script>
+         var num1 = prompt("Enter your No.1");
+         var num2 = prompt("Enter your No.2");
+         var opr = prompt("Enter operater (+ , -, % , *, /):")
+    
+
+        switch (opr) {
+
+            case "+":
+                let sum =  Number(num1) + Number(num2);
+                document.write(sum);
+                break;
+
+            case "-":
+            let neg =  Number(num1) - Number(num2);
+                document.write(neg);
+                break;
+
+            case '%':
+            let perc =  Number(num1) * Number(num2);
+                document.write(perc);
+                document.write(num1 % num2)
+                break;
+
+            case '*':
+            let mult =  Number(num1) % Number(num2);
+                document.write(mult);
+                document.write(num1 * num2)
+                break;
+
+            case '/':
+            let div =  Number(num1) / Number(num2);
+                document.write(div);
+                document.write(num1 / num2)
+                break;
+
+            default:
+                document.write("Invaild Match")
+                break;
+
+        }
+
+        
+    </script>
+</body>
+
+</html>
